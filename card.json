@@ -1,0 +1,13 @@
+{
+  "card": {
+    "bank_name": "yes bank",
+    "card_vendor": "rupay card",
+    "card_holder_name": "yogi pratama muharir",
+    "card_number": "8050 6579 7326 8919",
+    "expire_month": 13,
+    "expire_year": 28,
+    "validity": true,
+    "status": "active",
+    "type": "virtual"
+  }
+}

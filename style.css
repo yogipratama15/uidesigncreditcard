@@ -1,0 +1,134 @@
+/* Import Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e3f2fd;
+}
+.container {
+  position: relative;
+  background-image: url("images/bg.png");
+  background-size: cover;
+  padding: 25px;
+  border-radius: 28px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+header,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 5px; */
+}
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: wheat;
+}
+header .logo2 {
+  width: 100px;
+  height: auto;
+}
+.chip img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+h6 {
+  color: grey;
+  font-size: 10px;
+  font-weight: 400;
+}
+.number {
+  display: flex;
+  margin-top: 2px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  color: wheat;
+}
+h5.name {
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: wheat;
+}
+.container .number {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.valid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.exp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: wheat;
+  letter-spacing: 1px;
+  column-gap: 2px;
+  position: absolute;
+  bottom: 70px;
+  left: 230px;
+}
+.date {
+  letter-spacing: 5px;
+}
+.sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: wheat;
+  letter-spacing: 1px;
+  column-gap: 2px;
+  position: absolute;
+  bottom: 90px;
+  left: null;
+}
+h6.exp {
+  color: gray;
+}
+.name {
+  margin-top: 2px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 0;
+  text-transform: uppercase;
+  color: wheat;
+}
+/* .container .name {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+} */
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
